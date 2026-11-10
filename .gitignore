@@ -1,0 +1,39 @@
+# Arquivos gerados pelo agente — não commitar
+PLAN.md
+HISTORY.md
+apostila_gerada/
+apostila_publicada/
+
+# Configuração real do concurso — contém dados sensíveis/específicos
+.env
+
+# Dependências e builds
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# PDFs baixados durante o pipeline (gerenciados pelo agente)
+downloads/
+cache/
