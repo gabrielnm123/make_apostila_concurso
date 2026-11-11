@@ -309,3 +309,4 @@ No final de cada bloco, adicione:
 - [ ] Seção de referências ao final
 - [ ] Rodapé com data de geração e data-limite
 - [ ] Nenhuma seção em branco
+- [ ] **Autossuficiência textual:** zero menções a nomes de arquivos internos (`teoria.md`, `questoes_treino.md`, `resumo.md`, etc.) no texto que o estudante lê

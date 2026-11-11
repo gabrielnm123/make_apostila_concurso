@@ -286,3 +286,4 @@ Quando o input for uma questão real de prova oficial (não gerada pelo pipeline
 - [ ] Nenhum comentário em branco ou genérico demais
 - [ ] Questões discutíveis marcadas com `⚠️ GABARITO DISCUTÍVEL`
 - [ ] Questões reais identificadas com cabeçalho de proveniência
+- [ ] **Autossuficiência textual:** redação em estilo de livro ("Esta seção analisa...", "como visto na teoria anterior", e nunca "este arquivo analisa..." ou referências a nomes de arquivos `.md`)

@@ -247,3 +247,19 @@ O `.env` define o `CONCURSO_NIVEL` (superior/médio/fundamental). Ajuste:
 6. Inferência do agente ← **somente se marcado como `[VERIFICAR FONTE]`**
 
 **Regra:** o agente nunca deve afirmar uma norma sem citar a fonte. Se não tem a fonte, marca e continua. O usuário revisa os marcadores antes de publicar.
+
+---
+
+## 8. Experiência de Leitura e Autossuficiência Textual
+
+> **A apostila é um livro fechado, não um repositório de arquivos.**
+
+O estudante que lê a versão impressa ou o PDF/EPUB compilado não deve ser exposto à arquitetura técnica de pastas e arquivos de geração.
+
+1. **Vedação a nomes de arquivos no texto:** Nunca cite extensões ou caminhos de arquivos como `teoria.md`, `resumo.md`, `questoes_treino.md`, `flashcards.csv`, `PLAN.md` no corpo da obra.
+2. **Remissões naturais de obra literária:** Use sempre denominações das seções de estudo:
+   - *"Consulte o resumo desta aula para fixação rápida."*
+   - *"Resolva as Questões de Treino antes de examinar as Questões Comentadas."*
+   - *"Pratique os Flashcards para memorização ativa."*
+   - *"O gabarito oficial com fundamentos encontra-se na seção de Gabarito do Simulado."*
+3. **Comandos de leitura em vez de comandos de sistema:** Use comandos humanos como *"pause a leitura e responda"*, *"avance para os exercícios"*, e nunca *"abra este arquivo"* ou *"feche este arquivo"*.

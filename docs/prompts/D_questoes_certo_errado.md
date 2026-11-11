@@ -244,3 +244,4 @@ Armadilha: Nenhuma — item afirma texto correto da lei.
 - [ ] Sem repetição de armadilha no mesmo subtópico
 - [ ] JSON de metadados válido e completo
 - [ ] questoes_treino.md formatado corretamente (gabarito ao final, não embutido)
+- [ ] **Autossuficiência textual:** zero menções a arquivos (`.md`, `.csv`) no texto das instruções ao candidato (usar "consulte as Questões Comentadas", "gabarito ao final desta seção")

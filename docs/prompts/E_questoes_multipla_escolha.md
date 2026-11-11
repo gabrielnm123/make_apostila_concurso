@@ -302,3 +302,4 @@ E) <Afirmação absurda — fácil de eliminar (1 por questão)>
 - [ ] Sem "todas as anteriores" ou "nenhuma das anteriores"
 - [ ] Sem alternativas que se excluam mutuamente de forma óbvia
 - [ ] Linguagem uniforme entre todas as alternativas da mesma questão
+- [ ] **Autossuficiência textual:** zero menções a nomes de arquivos internos no enunciado ou instruções para o candidato

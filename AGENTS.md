@@ -154,6 +154,17 @@ Cada aula deve ter, nesta ordem:
 - Antes de encerrar, verifique o `PLAN.md` — a tabela de Status de Cobertura deve estar 100% concluída.
 - Se houver pendências, registre no `HISTORY.md` e continue na próxima sessão.
 
+### 5.6 Autossuficiência textual e vedação a metalinguagem de arquivos
+- **O material deve ser lido como um livro/apostila fechada e autossuficiente.**
+- **Nunca mencione nomes de arquivos ou extensões internas** (`teoria.md`, `resumo.md`, `mapa_mental.md`, `flashcards.csv`, `questoes_treino.md`, `questoes_comentadas.md`, `_fontes_rag.md`, `PLAN.md`, etc.) no corpo do texto que o estudante lê.
+- Use remissões pedagógicas naturais:
+  - Em vez de `"abra o questoes_treino.md"` → use `"passe para as Questões de Treino"`.
+  - Em vez de `"análise em questoes_comentadas.md"` → use `"análise detalhada nas Questões Comentadas"`.
+  - Em vez de `"releia o resumo.md"` → use `"releia a seção de Resumo da aula"`.
+  - Em vez de `"feche este arquivo e faça o checkpoint"` → use `"pause a leitura e escreva as respostas antes de prosseguir"`.
+  - Em vez de `"gabarito em arquivo separado"` → use `"gabarito na seção de Gabarito ao final"`.
+- O sumário da apostila deve listar títulos de seções e capítulos, nunca nomes de arquivos no disco.
+
 ---
 
 ## 6. BOXES E FORMATAÇÃO
@@ -242,11 +253,12 @@ Execute este checklist e registre o resultado no `HISTORY.md`:
 - [ ] Gabaritos de questões revisados
 - [ ] Nenhum `[VERIFICAR FONTE]` pendente sem alerta no HISTORY.md
 
-**Pedagogia**
+**Pedagogia e Redação**
 - [ ] Cada aula tem objetivo de aprendizagem explícito na teoria
 - [ ] Boxes de ATENÇÃO em pontos de pegadinha identificados
 - [ ] Questões comentadas com análise de distratores
 - [ ] Flashcards com tags corretas para o Anki
+- [ ] **Autossuficiência textual:** zero menções a arquivos técnicos internos (`.md`, `.csv`, `PLAN.md`, etc.) ou instruções operacionais de sistema no texto da apostila
 
 **Estilo de banca**
 - [ ] Questões no formato correto da banca

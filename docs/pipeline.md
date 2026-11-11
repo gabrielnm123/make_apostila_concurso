@@ -163,6 +163,8 @@ apostila_gerada/
 
 **Objetivo:** escrever o conteúdo teórico de cada aula.
 
+> ⚠️ **REGRA DE AUTOSSUFICIÊNCIA TEXTUAL:** O texto deve ser lido como um livro/apostila contínua. Nunca cite nomes de arquivos internos (`teoria.md`, `resumo.md`, `questoes_treino.md`, `flashcards.csv`, etc.). Use remissões pedagógicas: *"veja na seção de Resumo"*, *"passe para as Questões de Treino"*, *"consulte os comentários na seção seguinte"*.
+
 **Estrutura interna obrigatória de `teoria.md`:**
 
 ```markdown
@@ -349,9 +351,10 @@ frente;verso;tags
 1. **Checklist de cobertura:** verificar que cada item do edital tem capítulo correspondente.
 2. **Checklist de rastreabilidade:** cada `teoria.md` tem pelo menos uma citação de fonte por afirmação normativa.
 3. **Checklist de recursos:** cada aula tem os 6 arquivos obrigatórios.
-4. **Alerta de vigência:** checar se alguma lei citada foi alterada após `EDITAL_DATA_LIMITE_LEGISLACAO`.
-5. **Consistência de gabaritos:** verificar que nenhuma questão tem gabarito ambíguo.
-6. **Revisão do `sumario.md`:** confirmar que todos os capítulos estão listados com número de item do edital.
+4. **Checklist de autossuficiência:** nenhuma referência mecânica a arquivos `.md`, `.csv` ou do sistema no corpo do texto da apostila.
+5. **Alerta de vigência:** checar se alguma lei citada foi alterada após `EDITAL_DATA_LIMITE_LEGISLACAO`.
+6. **Consistência de gabaritos:** verificar que nenhuma questão tem gabarito ambíguo.
+7. **Revisão do `sumario.md`:** confirmar que todos os capítulos estão listados com número de item do edital e sem nomes de arquivos em disco.
 
 **Registrar resultado no `HISTORY.md`** com data, o que foi validado e qualquer pendência.
 
