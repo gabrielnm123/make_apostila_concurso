@@ -303,3 +303,4 @@ E) <Afirmação absurda — fácil de eliminar (1 por questão)>
 - [ ] Sem alternativas que se excluam mutuamente de forma óbvia
 - [ ] Linguagem uniforme entre todas as alternativas da mesma questão
 - [ ] **Autossuficiência textual:** zero menções a nomes de arquivos internos no enunciado ou instruções para o candidato
+- [ ] **Formatação de alternativas e gabarito:** alternativas formatadas obrigatoriamente como `**A)** `, `**B)** `, `**C)** `, `**D)** `, `**E)** ` com linhas em branco (evitando que conversores as transformem em números 1-5); e quebra de página estrita (`\newpage` e `<div style="page-break-before: always;"></div>`) antes do gabarito.

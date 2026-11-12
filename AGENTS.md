@@ -134,8 +134,13 @@ Leia `EDITAL_STATUS` no `.env` e siga:
 - Nenhum tópico pode ser incluído que não esteja no conteúdo programático do edital (ou explicitamente declarado como pré-edital/inferido).
 - A profundidade de cada item deve ser proporcional ao peso da disciplina e à incidência histórica da banca.
 
-### 5.3 Alinhamento à banca
+### 5.3 Alinhamento à banca e formatação de questões
 - Leia o perfil da banca em `docs/bancas/<BANCA_NOME>.md` antes de gerar qualquer questão.
+- **Formatação mandatória de alternativas:**
+  - As alternativas de múltipla escolha **devem ser escritas sempre como `**A)** `, `**B)** `, `**C)** `, `**D)** `, `**E)** `**, com linha em branco antes e depois de cada uma.
+  - **Nunca use `(A)`, `(B)` ou listas ordenadas padrão Markdown**, pois conversores (Pandoc, DOCX, leitores de tela) transformam listas ordenadas em numeração automática (1, 2, 3, 4, 5).
+- **Isolamento de gabarito para recuperação ativa:**
+  - O gabarito das questões de treino **deve sempre vir isolado com quebra de página estrita** (`\newpage` e `<div style="page-break-before: always;"></div>`) e aviso em caixa de destaque com fonte reduzida. O estudante nunca deve conseguir visualizar o gabarito na mesma página da última questão.
 - Questões CEBRASPE: itens independentes, C/E inequívoco, sem cadeia.
 - Questões FCC: 5 alternativas, cobrança vertical, doutrina clássica.
 - Questões FGV: situação-problema, alternativas com sinônimos imperfeitos.
@@ -260,8 +265,10 @@ Execute este checklist e registre o resultado no `HISTORY.md`:
 - [ ] Flashcards com tags corretas para o Anki
 - [ ] **Autossuficiência textual:** zero menções a arquivos técnicos internos (`.md`, `.csv`, `PLAN.md`, etc.) ou instruções operacionais de sistema no texto da apostila
 
-**Estilo de banca**
+**Estilo de banca e Formatação de Questões**
 - [ ] Questões no formato correto da banca
+- [ ] **Alternativas com letras:** formatadas como `**A)** `, `**B)** `, etc., com quebra de parágrafo, sem conversão para números
+- [ ] **Gabarito isolado:** quebra de página antes da seção de gabarito em todas as aulas de treino
 - [ ] Pegadinhas típicas da banca presentes nas questões e boxes
 - [ ] Profundidade proporcional ao peso configurado
 
